@@ -5,15 +5,13 @@ import FactoryPattern.Product.Rectangle;
 import FactoryPattern.Product.Shape;
 import FactoryPattern.Product.Square;
 
-import java.util.Objects;
-
 public class ShapeFactory {
     public Shape getShape(String shapeType) {
-        if(Objects.equals(shapeType, "circle")) {
+        if(shapeType.equalsIgnoreCase("CIRCLE")) {
             return new Circle();
-        } else if(Objects.equals(shapeType, "rectangle")) {
+        } else if(shapeType.equalsIgnoreCase("Rectangle")) {
             return new Rectangle();
-        } else if(Objects.equals(shapeType, "square")) {
+        } else if(shapeType.equalsIgnoreCase("Square")) {
             return new Square();
         } else {
             return null;
