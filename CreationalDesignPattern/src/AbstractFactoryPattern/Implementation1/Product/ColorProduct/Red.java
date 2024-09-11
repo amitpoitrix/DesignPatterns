@@ -1,4 +1,4 @@
-package AbstractFactoryPattern.Product.ColorProduct;
+package AbstractFactoryPattern.Implementation1.Product.ColorProduct;
 
 public class Red implements Color{
     @Override

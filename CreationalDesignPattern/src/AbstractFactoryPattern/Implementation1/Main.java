@@ -1,8 +1,8 @@
-package AbstractFactoryPattern;
+package AbstractFactoryPattern.Implementation1;
 
-import AbstractFactoryPattern.Factory.AbstractFactory;
-import AbstractFactoryPattern.Product.ColorProduct.Color;
-import AbstractFactoryPattern.Product.ShapeProduct.Shape;
+import AbstractFactoryPattern.Implementation1.Factory.AbstractFactory;
+import AbstractFactoryPattern.Implementation1.Product.ColorProduct.Color;
+import AbstractFactoryPattern.Implementation1.Product.ShapeProduct.Shape;
 
 public class Main {
     public static void main(String[] args) {

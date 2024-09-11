@@ -1,9 +1,9 @@
-package AbstractFactoryPattern.Factory;
+package AbstractFactoryPattern.Implementation1.Factory;
 
-import AbstractFactoryPattern.Product.ColorProduct.Color;
-import AbstractFactoryPattern.Product.ShapeProduct.Circle;
-import AbstractFactoryPattern.Product.ShapeProduct.Rectangle;
-import AbstractFactoryPattern.Product.ShapeProduct.Shape;
+import AbstractFactoryPattern.Implementation1.Product.ColorProduct.Color;
+import AbstractFactoryPattern.Implementation1.Product.ShapeProduct.Circle;
+import AbstractFactoryPattern.Implementation1.Product.ShapeProduct.Rectangle;
+import AbstractFactoryPattern.Implementation1.Product.ShapeProduct.Shape;
 
 public class ShapeFactory implements AbstractFactory{
     @Override

@@ -1,4 +1,4 @@
-package AbstractFactoryPattern.Product.ShapeProduct;
+package AbstractFactoryPattern.Implementation1.Product.ShapeProduct;
 
 public class Circle implements Shape{
     @Override

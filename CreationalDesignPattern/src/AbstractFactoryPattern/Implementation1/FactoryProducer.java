@@ -1,8 +1,8 @@
-package AbstractFactoryPattern;
+package AbstractFactoryPattern.Implementation1;
 
-import AbstractFactoryPattern.Factory.AbstractFactory;
-import AbstractFactoryPattern.Factory.ColorFactory;
-import AbstractFactoryPattern.Factory.ShapeFactory;
+import AbstractFactoryPattern.Implementation1.Factory.AbstractFactory;
+import AbstractFactoryPattern.Implementation1.Factory.ColorFactory;
+import AbstractFactoryPattern.Implementation1.Factory.ShapeFactory;
 
 public class FactoryProducer {
     public AbstractFactory getFactory(String factoryType) {
