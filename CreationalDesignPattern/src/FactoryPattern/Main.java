@@ -1,16 +1,16 @@
 package FactoryPattern;
 
-import FactoryPattern.Product.Shape;
+import FactoryPattern.Product.IShape;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Factory Design Pattern");
 
         ShapeFactory shapeFactory = new ShapeFactory();
-        Shape shape1 = shapeFactory.getShape("circle");
-        shape1.draw();
+        IShape IShape1 = shapeFactory.getShape("circle");
+        IShape1.draw();
 
-        Shape shape2 = shapeFactory.getShape("square");
-        shape2.draw();
+        IShape IShape2 = shapeFactory.getShape("square");
+        IShape2.draw();
     }
 }

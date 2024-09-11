@@ -2,11 +2,11 @@ package FactoryPattern;
 
 import FactoryPattern.Product.Circle;
 import FactoryPattern.Product.Rectangle;
-import FactoryPattern.Product.Shape;
+import FactoryPattern.Product.IShape;
 import FactoryPattern.Product.Square;
 
 public class ShapeFactory {
-    public Shape getShape(String shapeType) {
+    public IShape getShape(String shapeType) {
         if(shapeType.equalsIgnoreCase("CIRCLE")) {
             return new Circle();
         } else if(shapeType.equalsIgnoreCase("Rectangle")) {
